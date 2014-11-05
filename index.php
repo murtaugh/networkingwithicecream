@@ -55,6 +55,6 @@ if(strlen(strstr($_SERVER['HTTP_USER_AGENT'],"curl")) <= 0 ){ // if not a curl r
 set_time_limit(0);
 sleep(1); ?>
 
-Interested in networking with ice cream? Get in touch: @networkingwith
+Interested in networking with ice cream? Get in touch via Twitter: @networkingwith
 
 <?php } ?>
