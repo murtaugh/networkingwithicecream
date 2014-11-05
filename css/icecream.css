@@ -93,16 +93,19 @@ acronym {
 	cursor: help;
 }
 
-code {
-	display: inline-block;
-	padding-left: 1em;
-	font-size: .7em;
-	color: #fff;
-}
+@media only screen and (max-width: 600px) {
 
-code:before {
-	content: '$';
-	display: inline-block;
-	margin-right: .4em;
-	color: #f6c894;
+	h1 {
+		font-size: 8em;
+		font-size: 10vw;
+		line-height: .8em;
+	}
+	
+	h1 small {
+		font-size: .8em;
+	}
+	
+	footer.global {
+		position: static;	
+	}
 }
